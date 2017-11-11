@@ -1,0 +1,31 @@
+{
+  "short_name": "TPP Blog",
+  "name": "The Pleasant Places",
+  "description": "Enabling righteousness.",
+  "icons": [
+    {
+      "src": "css/images/favicon-32x32.ico",
+      "sizes": "32x32",
+      "type": "image/png"
+    },
+    {
+      "src": "css/images/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "css/images/apple-touch-icon.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "css/images/splashscreen.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "start_url": "./index.html",
+  "display": "standalone",
+  "theme_color": "4F4F4F",
+  "background_color": "#F5F8F9"
+}

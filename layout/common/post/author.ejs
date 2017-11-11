@@ -1,0 +1,8 @@
+<% if (post.author_id) { %>
+  <div class="author_id">
+      <i class="fa fa-user"></i>
+      <a href="<%- url_for(post.author_url) %>" target="_blank">
+        <%= post.author_id %>
+      </a>
+  </div>
+<% } %>

@@ -1,0 +1,8 @@
+<% if (post.scripture) { %>
+  <div class="author_id">
+      <i class="fa fa-book"></i>
+      <a href="<%- url_for(post.scripture_url) %>" target="_blank">
+        <%= post.scripture %>
+      </a>
+  </div>
+<% } %>
